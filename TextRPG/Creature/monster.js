@@ -1,9 +1,9 @@
 import chalk from 'chalk';
 import readlineSync from 'readline-sync';
 import { getRandomNum, playerRank, randomPlay } from '../util.js';
-import {Creature} from `./creature.js`;
+import {Creature} from './creature.js';
 
-class Monster extends Creature {
+export class Monster extends Creature {
     constructor() {
       // hp, maxHp, minDamage, maxDamage, armor, level
       super(10, 10, 10, 13, 1, 1);

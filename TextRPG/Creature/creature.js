@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 import { getRandomNum, playerRank, randomPlay } from '../util.js';
 
 
-class Creature {
+export class Creature {
     constructor(hp, maxHp, minDamage, maxDamage, armor, level) {
       this.hp = hp;
       this.maxHp = maxHp;
